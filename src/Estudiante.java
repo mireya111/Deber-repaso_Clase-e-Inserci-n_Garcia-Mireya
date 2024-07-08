@@ -3,15 +3,16 @@ public class Estudiante {
     String nombre;
     float nota1;
     float nota2;
+    /*Constructor vacío*/
     public Estudiante() {}
-
+    /*Constructor lleno*/
     public Estudiante(String cedula, String nombre, float nota1, float nota2) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.nota1 = nota1;
         this.nota2 = nota2;
     }
-
+    /*Getters y setters*/
     public String getCedula() {
         return cedula;
     }
